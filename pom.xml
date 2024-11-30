@@ -18,7 +18,6 @@
 		    <groupId>org.testng</groupId>
 		    <artifactId>testng</artifactId>
 		    <version>7.7.0</version> <!-- Or whatever version you are using -->
-		    <scope>test</scope>
 		</dependency>
 
         <!-- Selenium WebDriver dependency -->
