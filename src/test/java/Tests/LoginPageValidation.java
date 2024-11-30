@@ -21,6 +21,7 @@ public class LoginPageValidation extends BaseClass {
 	@Test(groups = {"Regression"})
 	private void errorMessageValidation() {
 		invokeBrowser();
+		closeBrowser();
 		//driver.get("https://www.royallondon.com/");
 		//LogUtils.info("Url Opened");
 		

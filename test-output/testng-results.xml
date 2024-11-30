@@ -2,23 +2,23 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-30T12:28:41 IST" name="Suite" finished-at="2024-11-30T12:28:57 IST" duration-ms="16167">
+  <suite started-at="2024-11-30T13:20:41 IST" name="Suite" finished-at="2024-11-30T13:21:07 IST" duration-ms="25765">
     <groups>
       <group name="Regression">
-        <method signature="LoginPageValidation.errorMessageValidation()[pri:0, instance:Tests.LoginPageValidation@59474f18]" name="errorMessageValidation" class="Tests.LoginPageValidation"/>
+        <method signature="LoginPageValidation.errorMessageValidation()[pri:0, instance:Tests.LoginPageValidation@33d512c1]" name="errorMessageValidation" class="Tests.LoginPageValidation"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2024-11-30T12:28:41 IST" name="Test" finished-at="2024-11-30T12:28:57 IST" duration-ms="16167">
+    <test started-at="2024-11-30T13:20:41 IST" name="Test" finished-at="2024-11-30T13:21:07 IST" duration-ms="25765">
       <class name="Tests.LoginPageValidation">
-        <test-method is-config="true" signature="invokeBrowser()[pri:0, instance:Tests.LoginPageValidation@59474f18]" started-at="2024-11-30T12:28:41 IST" name="invokeBrowser" finished-at="2024-11-30T12:28:49 IST" duration-ms="8286" status="PASS">
+        <test-method is-config="true" signature="invokeBrowser()[pri:0, instance:Tests.LoginPageValidation@33d512c1]" started-at="2024-11-30T13:20:41 IST" name="invokeBrowser" finished-at="2024-11-30T13:21:00 IST" duration-ms="18702" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser -->
-        <test-method signature="errorMessageValidation()[pri:0, instance:Tests.LoginPageValidation@59474f18]" started-at="2024-11-30T12:28:49 IST" name="errorMessageValidation" finished-at="2024-11-30T12:28:56 IST" duration-ms="7120" status="PASS">
+        <test-method signature="errorMessageValidation()[pri:0, instance:Tests.LoginPageValidation@33d512c1]" started-at="2024-11-30T13:21:00 IST" name="errorMessageValidation" finished-at="2024-11-30T13:21:06 IST" duration-ms="6520" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- errorMessageValidation -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Tests.LoginPageValidation@59474f18]" started-at="2024-11-30T12:28:56 IST" name="closeBrowser" finished-at="2024-11-30T12:28:57 IST" duration-ms="582" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Tests.LoginPageValidation@33d512c1]" started-at="2024-11-30T13:21:06 IST" name="closeBrowser" finished-at="2024-11-30T13:21:07 IST" duration-ms="426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
