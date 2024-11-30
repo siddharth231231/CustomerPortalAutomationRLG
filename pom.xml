@@ -13,15 +13,7 @@
 		</dependency>
 
 
-	   <dependency>
-            <groupId>io.cucumber</groupId>
-            <artifactId>cucumber-testng</artifactId>
-            <version>7.15.0</version>
-        </dependency>
-        
-
-
-        <!-- TestNG dependency -->
+	   <!-- TestNG dependency -->
 		<dependency>
 		    <groupId>org.testng</groupId>
 		    <artifactId>testng</artifactId>
@@ -62,6 +54,7 @@
             <version>4.4</version>
         </dependency>
 
+        <!-- ExtentReports dependency for reporting -->
 
 
         <!-- Log4j 2 dependencies for logging -->
@@ -83,6 +76,9 @@
         
         
         
+        
+        
+        
    
   </dependencies>
   
@@ -95,9 +91,14 @@
             <artifactId>maven-compiler-plugin</artifactId>
             <version>3.8.1</version>
             <configuration>
+				
                 <source>1.8</source>
                 <target>1.8</target>
+               
+
+                
             </configuration>
+            
         </plugin>
     </plugins>
 </build>

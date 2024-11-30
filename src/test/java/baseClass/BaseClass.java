@@ -7,7 +7,7 @@ import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
+
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -36,7 +36,7 @@ public class BaseClass {
         
         // Get properties from the file
         browser = properties.getProperty("browser", "chrome");
-        baseUrl = properties.getProperty("baseUrl", "https://default-url.com");
+        baseUrl = properties.getProperty("baseUrl", "www.facebook.com");
 
         // Override with runtime parameters if provided
         browser = System.getProperty("browser", browser);
